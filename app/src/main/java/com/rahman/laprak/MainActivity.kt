@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
                     // In the source Activity (e.g., MainActivity)
                     val i = Intent(this@MainActivity, bukagambar::class.java)
                     i.putExtra("key1", url)
-                    startActivity(intent)
+                    startActivity(i)
 
                 }
 
